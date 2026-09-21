@@ -27,8 +27,8 @@ description: >-
   Cressie and Wikle supply a unique presentation that incorporates ideas from the areas of time series and spatial statistics
   as well as stochastic processes. Beginning with separate treatments of temporal data and spatial data, the book combines
   these concepts to discuss spatio-temporal statistical methods for understanding complex processes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sstd-book" # the subpath of your site, e.g. /blog
+url: "https://huyanhdinhsw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
