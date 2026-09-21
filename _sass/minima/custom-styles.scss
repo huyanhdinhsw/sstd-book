@@ -1,0 +1,129 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+    margin-bottom: 15px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400
+}
+
+body {
+    // font: 400 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font: 400 16px/1.5 Arial;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal
+}
+
+a {
+    color: #ff4d40;
+}
+
+a:visited {
+    color: #cc3d33;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #651e19;
+}
+
+h1.page-heading {
+  border-bottom: 2px solid #ffbe36;
+  white-space: nowrap;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #ff4d40;
+  width: 100%;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    border: none;
+    background-color: #ffbe36;
+}
+
+header.site-header,
+footer.site-footer {
+    position: relative;
+    width: 100%;
+    line-height: 54px;
+    background-color: #fdfdfd;
+    padding: 0;
+}
+
+header.site-header {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+footer.site-footer {
+    border-top: 1px solid #e7e7e7;
+}
+
+.site-nav {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site-nav a.site-nav-btn {
+    margin:2px 3px 2px 3px;
+    padding: 1px;
+    cursor: default;
+}
+
+.site-nav a.site-nav-btn, .site-nav a.site-nav-btna:visited {
+    color: #ff4d40;
+}
+.site-nav a.site-nav-btn:active,
+.site-nav a.site-nav-btn:focus,
+.site-nav a.site-nav-btn:hover {
+    color: #651e19;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav {
+        position: relative;
+        top: 0;
+        right: 0;
+        background-color: #fdfdfd;
+        border: 0;
+        border-radius: 0;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    div.bookcover {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        white-space: nowrap;
+    }
+}
+
+div.bookcover {
+    white-space: nowrap;
+}
+div.bookcover img {
+// #box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}

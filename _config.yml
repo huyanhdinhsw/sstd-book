@@ -1,0 +1,52 @@
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# remote_theme: jekyll/minima
+# plugins:
+# - jekyll-remote-theme
+# title: Spatio-Temporal Statistics with R
+# google_analytics: G-3HJJCZE2G6
+
+
+title: Statistics for Spatio-Temporal Data
+author_email: ncressie@uow.edu.au
+author: Distinguished Professor Noel Cressie
+co_author_email: WikleC@Missouri.edu
+co_author: Curators' Distinguished Professor Christopher K. Wikle
+
+description: >-
+  From understanding environmental processes and climate trends to developing new technologies
+  for mapping public-health data and the spread of invasive-species, there is a high demand
+  for statistical analyses of data that take spatial, temporal, and spatio-temporal information into account.
+  Statistics for Spatio-Temporal Data presents a systematic approach to key quantitative techniques that incorporate
+  the latest advances in statistical computing as well as hierarchical, particularly Bayesian, statistical modeling,
+  with an emphasis on dynamical spatio-temporal models.
+  
+  Cressie and Wikle supply a unique presentation that incorporates ideas from the areas of time series and spatial statistics
+  as well as stochastic processes. Beginning with separate treatments of temporal data and spatial data, the book combines
+  these concepts to discuss spatio-temporal statistical methods for understanding complex processes.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+# theme: minima
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+# include:
+#   - Gemfile
